@@ -18,3 +18,5 @@ def extract_full_names(people):
     for dict in people:
         names.append(f'{dict["first"]} {dict["last"]}')
     return names
+
+

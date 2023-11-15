@@ -13,9 +13,10 @@ def titleize(phrase):
     for i in range(len(lst)):
         if len(res) == 0:
             res.append(lst[i].upper())
-        if lst[i-1]== ' ':
+        elif lst[i-1]== ' ':
             res.append(lst[i].upper())
         else:
             res.append(lst[i])
     
     return ''.join(res)
+

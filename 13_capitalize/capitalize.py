@@ -11,3 +11,4 @@ def capitalize(phrase):
     phrase_list = list(phrase)
     phrase_list[0:1] = [phrase_list[0].upper()]
     return ''.join(phrase_list)
+

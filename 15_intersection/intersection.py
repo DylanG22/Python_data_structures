@@ -19,3 +19,4 @@ def intersection(l1, l2):
             both.append(el)
 
     return both
+

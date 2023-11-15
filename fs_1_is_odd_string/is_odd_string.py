@@ -27,5 +27,14 @@ def is_odd_string(word):
         >>> is_odd_string('amazing')
         True
     """
+    total = 0
 
     # Hint: you may find the ord() function useful here
+    for let in word:
+        total += ord(let)
+
+    if total % 2 == 1:
+        return True
+    else:
+        return False
+

@@ -18,12 +18,13 @@ def find_factors(num):
     if num % 2 == 0:
         while factor <= num:
             if num % factor == 0:
-                res.append[factor]
+                res.append(factor)
             factor += 1
     else: 
         while factor <= num:
             if num % factor == 0:
-                res.append[factor]
+                res.append(factor)
             factor += 2
 
     return res
+
